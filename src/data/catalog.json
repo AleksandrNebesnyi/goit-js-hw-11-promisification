@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Mango",
+        "price": 177
+    },
+    {
+        "name": "Peper",
+        "price": 277
+    },
+    {
+        "name": "lime",
+        "price": 177
+    },
+    {
+        "name": "Avokado",
+        "price": 177
+    },
+    {
+        "name": "Carrot",
+        "price": 77
+    },
+    {
+        "name": "Tomato",
+        "price": 47
+    }
+]
