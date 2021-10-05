@@ -1,5 +1,3 @@
-import "../scss/main.scss";
-
 const users = [
   { name: "Mango", active: true },
   { name: "Poly", active: false },
