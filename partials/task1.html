@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Задание 1</title><link rel="stylesheet" href="/goit-js-hw-11-promisification/task1.c2730bc3.css"></head><body> <section> <a href="/goit-js-hw-11-promisification/index.html">Главная</a> <div> <h1>Задание 1</h1> <p> Напиши функцию <code class="text">delay(ms)</code>, которая возвращает промис, переходящий в состояние <code>"resolved"</code> через <code>ms</code> миллисекунд. Значением исполнившегося промиса должно быть то кол-во миллисекунд которое передали во время вызова функции <code>delay</code>. </p> <pre>
+            <code>       
+    const delay = ms => {
+    // Твой код
+    };
+                
+    const logger = time => console.log(`Resolved after ${time}ms`);
+                
+    // Вызовы функции для проверки
+    delay(2000).then(logger); // Resolved after 2000ms
+    delay(1000).then(logger); // Resolved after 1000ms
+    delay(1500).then(logger); // Resolved after 1500ms
+            </code>
+            </pre> </div> </section> <script src="/goit-js-hw-11-promisification/task1.37b2437a.js"></script> </body></html>
